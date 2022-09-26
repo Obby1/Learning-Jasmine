@@ -1,4 +1,5 @@
-
+describe('calculator tests', ()=> {
+  
 it('should calculate the monthly rate correctly', ()=> {
   const values = {
     rate: 1,
@@ -27,4 +28,7 @@ it(`should return a string`, ()=> {
     amount: 20000,
   }
   expect(typeof(calculateMonthlyPayment(values))).toBe(`string`);
+})
+
+
 })
